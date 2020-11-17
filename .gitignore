@@ -9,7 +9,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Mm]emoryCaptures/
-/[Mm]icroservice/
+# /[Mm]icroservice/ IGNORE THIS LATER #
 
 # Logging
 /client/debug.log
