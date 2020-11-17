@@ -16,6 +16,11 @@ This sample project demonstrates specific [Beamable](https://beamable.com/) feat
 
 
 # Microservices BBB Sample Project
+![Logo](client/Assets/Art/Textures/BBBReadmeImage.png)
+
+### What is Beamable Boss Battles?
+The Hero has reached the dungeon. Battle the Boss to win. This sample project allows game makers to understand and apply the benefits of Microservices in game development.
+<br>[Microservices - Sample Project](https://docs.beamable.com/docs/microservices-sample-project)
 
 ### What is Beamable?
 Beamable is the low-code option for rapidly adding social, commerce, and content management features to your live game. Learn how to do that with Beamable's online product documentation.
@@ -24,10 +29,6 @@ Beamable is the low-code option for rapidly adding social, commerce, and content
 ### What is the Microservices feature?
 The purpose of this feature is to allow game makers to create and deploy server-authoritative C# functionality within their games.
 <br>[Microservices](https://docs.beamable.com/docs/microservices)
-
-### What is Beamable Boss Battles?
-The Hero has reached the dungeon. Battle the Boss to win. This sample project allows game makers to understand and apply the benefits of Microservices in game development.
-<br>[Microservices - Sample Project](https://docs.beamable.com/docs/microservices-sample-project)
 
 ### Got feedback?
 Let us know what you think or ask any questions you might have.
