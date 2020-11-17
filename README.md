@@ -1,6 +1,10 @@
 # Beamable Sample Project
 
-This project demonstrates specific [Beamable](https://beamable.com/) features and services.
+This sample project demonstrates specific [Beamable](https://beamable.com/) features and services.
+
+**Project Configuration**
+* `Unity Target` - Standalone MAC/PC
+* `Unity Version` - 2019.4.14f1 or above
 
 **Project Structure**
 * `README.md` - This README file
