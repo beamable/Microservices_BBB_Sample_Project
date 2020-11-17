@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Beamable.Runtime.UserMicroService.bbbgamemicroservice",
+    "references": [
+        "Unity.Beamable.Runtime.Common",
+        "Unity.DisruptorEngine",
+        "Core.SmallerJSON",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

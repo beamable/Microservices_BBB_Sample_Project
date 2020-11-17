@@ -1,0 +1,6 @@
+{
+    "cid": "1281307945234434",
+    "pid": "DE_1281307945234435",
+    "platform": "http://dev.api.beamable.com",
+    "socket": "wss://thorium-dev.disruptorbeam.com/socket"
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 888ed179fc5435e449cd973e332c35b3
+  m_SerializeEntries:
+  - m_GUID: 3b7f7980a6c45274291195e1c4140b1e
+    m_Address: Assets/3rdParty/GoodDay/Item icons Melee weapon/For demo/Weapon02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f5a2839d465880a4fa7f4acafba8a6ac
+    m_Address: Assets/3rdParty/GoodDay/Item icons Melee weapon/For demo/Weapon01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f819a6beb22c04c8d9f8222f930252b5
+    m_Address: Assets/DisruptorEngine/DefaultAssets/currency/icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5cbd983a049b5a34eb83bcd97c2edf45, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 025361b77453fd948930126f66bb7c68, type: 2}
+    - {fileID: 11400000, guid: 955dbb8101116f4409adfaf893a3c343, type: 2}
