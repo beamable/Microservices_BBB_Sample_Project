@@ -1,0 +1,7 @@
+﻿{
+	"name": "Core.ConsoleCommands",
+    "references": [
+        "Core.Service",
+        "Core.Coroutines"  
+    ]
+}

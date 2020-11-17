@@ -1,0 +1,17 @@
+{
+    "name": "Core.JsonSerializable",
+    "references": [
+        "Core.Pooling",
+        "Core.Extensions",
+        "Core.Spew",
+        "Core.Service"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

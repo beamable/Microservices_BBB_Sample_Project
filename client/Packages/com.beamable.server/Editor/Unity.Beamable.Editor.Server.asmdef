@@ -1,0 +1,25 @@
+﻿{
+	"name": "Unity.Beamable.Editor.Server",
+     "references": [
+        "Core.Config",
+        "Core.JsonSerializable",
+        "Core.SmallerJSON",
+        "Core.Platform",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared",
+        "Unity.DisruptorEngine",
+        "Unity.DisruptorEngine.Editor"
+     ],
+     "optionalUnityReferences": [],
+     "includePlatforms": [
+        "Editor"
+     ],
+     "includePlatforms": [],
+     "excludePlatforms": [],
+     "allowUnsafeCode": false,
+     "overrideReferences": false,
+     "precompiledReferences": [],
+     "autoReferenced": true,
+     "defineConstraints": []
+}

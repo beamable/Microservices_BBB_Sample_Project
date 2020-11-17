@@ -1,0 +1,27 @@
+{
+    "name": "Unity.DisruptorEngine",
+    "references": [
+        "Core.Config",
+        "Core.ConsoleCommands",
+        "Core.Coroutines",
+        "Core.Platform",
+        "Core.Service",
+        "Core.Pooling",
+        "Core.Spew",
+        "Core.JsonSerializable",
+        "Core.SmallerJSON",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.TextMeshPro",
+        "Unity.Beamable.Runtime.Common",
+        "VirtualList"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

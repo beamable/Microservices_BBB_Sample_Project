@@ -1,0 +1,15 @@
+{
+    "name": "Core.Service",
+    "references": [
+        "Core.Extensions",
+        "Core.Spew"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

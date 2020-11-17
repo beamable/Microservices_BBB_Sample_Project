@@ -1,0 +1,14 @@
+{
+    "name": "PubNub",
+    "references": [
+        "Core.SmallerJSON"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

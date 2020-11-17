@@ -1,0 +1,17 @@
+{
+    "name": "Core.Pooling.Editor",
+    "references": [
+        "Core.Service",
+        "Core.Pooling"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

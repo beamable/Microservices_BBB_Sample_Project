@@ -1,0 +1,12 @@
+{
+    "name": "Core.Config",
+    "references": [
+        "Core.SmallerJSON",
+        "Core.Service",
+        "Core.ConsoleCommands"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
