@@ -1,4 +1,4 @@
-# Beamable Sample Project
+# Overvew: Beamable Sample Project
 
 This sample project demonstrates specific [Beamable](https://beamable.com/) features and services.
 
@@ -18,7 +18,7 @@ This sample project demonstrates specific [Beamable](https://beamable.com/) feat
 * **Included**: This project includes the Beamable SDK for Unity
 * **Version**: The latest public release as of each GIT commit
 
-# Microservices BBB Sample Project
+# Details: Microservices BBB Sample Project
 ![Logo](client/Assets/Art/Textures/BBBReadmeImage.png)
 
 ### What is Beamable Boss Battles?
