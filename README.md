@@ -5,6 +5,7 @@ This sample project demonstrates specific [Beamable](https://beamable.com/) feat
 **Project Configuration**
 * `Unity Target` - Standalone MAC/PC
 * `Unity Version` - 2019.4.14f1 or above
+* `Unity Rendering` - [Unity Standard Renderer (Legacy)](https://docs.unity3d.com/Manual/shader-StandardShader.html)
 
 **Project Structure**
 * `README.md` - This README file
