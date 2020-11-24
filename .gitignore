@@ -26,6 +26,10 @@
 # Visual Studio cache directory
 .vs/
 
+# User-specific files
+config-defaults.txt
+config-defaults.txt.meta
+
 # Gradle cache directory
 .gradle/
 
