@@ -132,8 +132,11 @@ namespace DisruptorBeam.Editor
             cid = cid,
             pid = pid,
             platform = host,
-            socket = host
+
+            //Use dev URL - srivello
+            socket = "wss://thorium-dev.disruptorbeam.com/socket"
          };
+
          var asJson = JsonUtility.ToJson(config, true);
          Directory.CreateDirectory("Assets/DisruptorEngine/Resources/");
          string path = "Assets/DisruptorEngine/Resources/config-defaults.txt";
