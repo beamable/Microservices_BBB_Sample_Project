@@ -22,7 +22,7 @@ This sample project demonstrates specific [Beamable](https://beamable.com/) feat
 # Details: Microservices BBB Sample Project
 ![Logo](client/Assets/Art/Textures/BBBReadmeImage.png)
 
-### What is Beamable Boss Battles?
+### What is "Beamable Boss Battles"?
 The Hero has reached the dungeon. Battle the Boss to win. This sample project allows game makers to understand and apply the benefits of Microservices in game development.
 <br>[Microservices - Sample Project](https://docs.beamable.com/docs/microservices-sample-project)
 
