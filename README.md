@@ -30,7 +30,7 @@ The Hero has reached the dungeon. Battle the Boss to win. This sample project al
 Beamable is the low-code option for rapidly adding social, commerce, and content management features to your live game. Learn how to do that with Beamable's online product documentation.
 <br>[docs.beamable.com](https://docs.beamable.com/)
 
-### What is Beamable's Microservices Feature?
+### What is Beamable's "Microservices" Feature?
 The purpose of this feature is to allow game makers to create and deploy server-authoritative C# functionality within their games.
 <br>[Microservices](https://docs.beamable.com/docs/microservices)
 
