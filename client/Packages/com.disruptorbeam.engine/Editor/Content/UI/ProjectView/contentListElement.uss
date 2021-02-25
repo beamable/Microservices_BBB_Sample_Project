@@ -1,8 +1,0 @@
-
-#content-type-list {
-    flex-grow: 1;
-}
-
-#content-type-list > TemplateContainer {
-    flex-grow: 1;
-}

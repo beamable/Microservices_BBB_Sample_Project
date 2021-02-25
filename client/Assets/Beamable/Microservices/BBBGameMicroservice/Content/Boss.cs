@@ -1,4 +1,4 @@
-﻿using DisruptorBeam.Content;
+﻿using Beamable.Common.Content;
 
 namespace Beamable.Server.BBBGameMicroservice.Content
 {

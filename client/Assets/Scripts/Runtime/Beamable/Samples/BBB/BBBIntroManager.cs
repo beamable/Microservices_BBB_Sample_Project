@@ -1,5 +1,4 @@
 ﻿using Beamable.Samples.BBB.Views;
-using DisruptorBeam;
 using System;
 using UnityEngine;
 
@@ -29,9 +28,9 @@ namespace Beamable.Samples.BBB
 
       protected void OnDestroy()
       {
-         DisruptorEngine.Instance.Then(de =>
+         Beamable.API.Instance.Then(beamableAPI =>
          {
-            de.ConnectivityService.OnConnectivityChanged -= ConnectivityService_OnConnectivityChanged;
+            beamableAPI.ConnectivityService.OnConnectivityChanged -= ConnectivityService_OnConnectivityChanged;
          });
       }
 
@@ -45,15 +44,15 @@ namespace Beamable.Samples.BBB
          try
          {
             // Attempt Connection to Beamable
-            DisruptorEngine.Instance.Then(de =>
+            Beamable.API.Instance.Then(beamableAPI =>
             {
                // Fetch user information
-               _dbid = de.User.id;
+               _dbid = beamableAPI.User.id;
                _isBeamableSDKInstalled = true;
 
                // Handle any changes to the internet connectivity
-               de.ConnectivityService.OnConnectivityChanged += ConnectivityService_OnConnectivityChanged;
-               ConnectivityService_OnConnectivityChanged(de.ConnectivityService.HasConnectivity);
+               beamableAPI.ConnectivityService.OnConnectivityChanged += ConnectivityService_OnConnectivityChanged;
+               ConnectivityService_OnConnectivityChanged(beamableAPI.ConnectivityService.HasConnectivity);
 
             });
          }
