@@ -86,8 +86,8 @@ namespace Beamable.Server.BBBGameMicroservice
              bossHealthRemaining.ToString());
 
          // Return the health
-         return new AttackTheBossResults { 
-           DamageAmount = damageAmount, 
+         return new AttackTheBossResults {
+           DamageAmount = damageAmount,
            BossHealthRemaining = bossHealthRemaining
          };
       }
@@ -101,7 +101,7 @@ namespace Beamable.Server.BBBGameMicroservice
          return await services.Stats.SetProtectedPlayerStat(userId, key, value)
            .Error ((Exception exception) =>
             {
-               Debug.Log($"SetProtectedPlayerStat() error={exception.Message}.");
+               BeamableLogger.Log($"SetProtectedPlayerStat() error={exception.Message}.");
             });
       }
 
