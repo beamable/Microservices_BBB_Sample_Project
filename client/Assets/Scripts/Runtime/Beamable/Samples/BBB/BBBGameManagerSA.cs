@@ -14,10 +14,10 @@ namespace Beamable.Samples.BBB
 {
    /// <summary>
    /// The main entry point for in-game logic for the primary game scene.
-   /// 
-   /// NOTE: This is the SERVER-AUTHORITATIVE (CA) implementation. 
+   ///
+   /// NOTE: This is the SERVER-AUTHORITATIVE (CA) implementation.
    /// This uses Beamable Microservices.
-   /// 
+   ///
    /// </summary>
    public class BBBGameManagerSA : MonoBehaviour
    {
@@ -56,7 +56,7 @@ namespace Beamable.Samples.BBB
          // Block user interaction
          _gameUI.CanvasGroup.DOFade(0, 0);
          _gameUI.AttackButton.interactable = false;
-         
+
          _bbbGameMicroserviceClient = new BBBGameMicroserviceClient();
          StartTheBattle();
 
@@ -91,7 +91,7 @@ namespace Beamable.Samples.BBB
                   })
                   .Error((Exception exception) =>
                   {
-                     Console.WriteLine("_bossContentRef.Resove() error: " + exception.Message);
+                     System.Console.WriteLine("_bossContentRef.Resove() error: " + exception.Message);
                   });
 
             })
@@ -101,7 +101,7 @@ namespace Beamable.Samples.BBB
             });
       }
 
-     
+
       private IEnumerator Attack()
       {
          _gameUI.AttackButton.interactable = false;

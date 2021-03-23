@@ -11,7 +11,7 @@
 namespace Beamable.Server.Clients
 {
     using System;
-    using Core.Platform.SDK;
+    using Beamable.Platform.SDK;
     using Beamable.Server;
     
     
@@ -23,26 +23,26 @@ namespace Beamable.Server.Clients
         /// Call the StartTheBattle method on the BBBGameMicroservice microservice
         /// <see cref="Beamable.Server.BBBGameMicroservice.BBBGameMicroservice.StartTheBattle"/>
         /// </summary>
-        public Core.Platform.SDK.Promise<Beamable.Server.BBBGameMicroservice.StartTheBattleResults> StartTheBattle(Beamable.Server.BBBGameMicroservice.Content.BossContentRef bossContentRef, int heroWeaponIndexMax)
+        public Beamable.Common.Promise<Beamable.Server.BBBGameMicroservice.StartTheBattleResults> StartTheBattle(Beamable.Server.BBBGameMicroservice.Content.BossContentRef bossContentRef, int heroWeaponIndexMax)
         {
             string serialized_bossContentRef = this.SerializeArgument<Beamable.Server.BBBGameMicroservice.Content.BossContentRef>(bossContentRef);
             string serialized_heroWeaponIndexMax = this.SerializeArgument<int>(heroWeaponIndexMax);
             string[] serializedFields = new string[] {
                     serialized_bossContentRef,
                     serialized_heroWeaponIndexMax};
-            return this.Request<Beamable.Server.BBBGameMicroservice.StartTheBattleResults>("micro_BBBGameMicroservice/StartTheBattle", serializedFields);
+            return this.Request<Beamable.Server.BBBGameMicroservice.StartTheBattleResults>("BBBGameMicroservice", "StartTheBattle", serializedFields);
         }
         
         /// <summary>
         /// Call the AttackTheBoss method on the BBBGameMicroservice microservice
         /// <see cref="Beamable.Server.BBBGameMicroservice.BBBGameMicroservice.AttackTheBoss"/>
         /// </summary>
-        public Core.Platform.SDK.Promise<Beamable.Server.BBBGameMicroservice.AttackTheBossResults> AttackTheBoss(System.Collections.Generic.List<Beamable.Server.BBBGameMicroservice.Content.WeaponContentRef> weaponContentRefs)
+        public Beamable.Common.Promise<Beamable.Server.BBBGameMicroservice.AttackTheBossResults> AttackTheBoss(System.Collections.Generic.List<Beamable.Server.BBBGameMicroservice.Content.WeaponContentRef> weaponContentRefs)
         {
             string serialized_weaponContentRefs = this.SerializeArgument<System.Collections.Generic.List<Beamable.Server.BBBGameMicroservice.Content.WeaponContentRef>>(weaponContentRefs);
             string[] serializedFields = new string[] {
                     serialized_weaponContentRefs};
-            return this.Request<Beamable.Server.BBBGameMicroservice.AttackTheBossResults>("micro_BBBGameMicroservice/AttackTheBoss", serializedFields);
+            return this.Request<Beamable.Server.BBBGameMicroservice.AttackTheBossResults>("BBBGameMicroservice", "AttackTheBoss", serializedFields);
         }
     }
 }
