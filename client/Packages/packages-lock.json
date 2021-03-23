@@ -1,22 +1,22 @@
 {
   "dependencies": {
     "com.beamable": {
-      "version": "0.0.0-PREVIEW.NIGHTLY-202102241800",
+      "version": "0.9.0-PREVIEW.RC7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0",
-        "com.unity.addressables": "1.2.4",
+        "com.unity.addressables": "1.16.16",
         "com.unity.textmeshpro": "1.4.1"
       },
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity-all"
     },
     "com.beamable.server": {
-      "version": "0.0.0-PREVIEW.NIGHTLY-202102241800",
+      "version": "0.9.0-PREVIEW.RC7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.beamable": "0.0.0-PREVIEW.NIGHTLY-202102241800"
+        "com.beamable": "0.9.0-PREVIEW.RC7"
       },
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity-all"
     },
@@ -118,7 +118,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.22",
+      "version": "1.1.24",
       "depth": 0,
       "source": "registry",
       "dependencies": {
