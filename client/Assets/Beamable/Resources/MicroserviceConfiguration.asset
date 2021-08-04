@@ -12,20 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96b3852b93843ef94fc3401214399e, type: 3}
   m_Name: MicroserviceConfiguration
   m_EditorClassIdentifier: 
-  Microservices:
-  - ServiceName: BBBGameMicroservice
-    Enabled: 1
-    TemplateId: small
-    DebugData:
-      Username: root
-      Password: Password!
-      SshPort: 11100
+  Microservices: []
   AutoReferenceContent: 1
-  ColorLogs: 0
+  ColorLogs: 1
   EnableDockerBuildkit: 0
-  LogProcessLabelColor: {r: 1, g: 1, b: 1, a: 1}
-  LogStandardOutColor: {r: 0.2, g: 0.4, b: 1, a: 1}
-  LogStandardErrColor: {r: 1, g: 0.44, b: 0.2, a: 1}
+  LogProcessLabelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  LogStandardOutColor: {r: 0, g: 0, b: 1, a: 1}
+  LogStandardErrColor: {r: 1, g: 0, b: 0, a: 1}
   LogDebugLabelColor: {r: 0.25, g: 0.5, b: 1, a: 1}
   LogInfoLabelColor: {r: 0, g: 0, b: 1, a: 1}
   LogErrorLabelColor: {r: 1, g: 0, b: 0, a: 1}
