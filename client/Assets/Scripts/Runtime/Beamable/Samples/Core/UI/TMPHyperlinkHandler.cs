@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Beamable.Samples.BBB.Core
+namespace Beamable.Samples.Core.UI
 {
    /// <summary>
    /// Open a web browser for any <link=blah>text</link> in the source text.

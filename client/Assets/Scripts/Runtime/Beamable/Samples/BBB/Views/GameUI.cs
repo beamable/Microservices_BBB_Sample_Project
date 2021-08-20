@@ -1,6 +1,6 @@
-﻿using Beamable.Samples.BBB.Audio;
-using Beamable.Samples.BBB.Data;
+﻿using Beamable.Samples.BBB.Data;
 using System.Collections;
+using Beamable.Samples.Core.Audio;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;

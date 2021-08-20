@@ -1,5 +1,5 @@
 ﻿
-namespace Beamable.Samples.BBB.Audio
+namespace Beamable.Samples.Core.Audio
 {
    /// <summary>
    /// Store commonly used string values for easier editor-assisted 

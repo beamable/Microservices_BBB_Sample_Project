@@ -1,8 +1,8 @@
-﻿using Beamable.Samples.BBB.Audio;
-using Beamable.Samples.BBB.Data;
+﻿using Beamable.Samples.BBB.Data;
 using Beamable.Samples.BBB.Views;
 using DG.Tweening;
 using System.Collections;
+using Beamable.Samples.Core.Audio;
 using UnityEngine;
 
 namespace Beamable.Samples.BBB

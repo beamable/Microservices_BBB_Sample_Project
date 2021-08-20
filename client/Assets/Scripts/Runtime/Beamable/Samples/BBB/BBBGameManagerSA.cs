@@ -1,5 +1,4 @@
-﻿using Beamable.Samples.BBB.Audio;
-using Beamable.Samples.BBB.Data;
+﻿using Beamable.Samples.BBB.Data;
 using Beamable.Samples.BBB.Views;
 using Beamable.Server.BBBGameMicroservice;
 using Beamable.Server.BBBGameMicroservice.Content;
@@ -8,6 +7,7 @@ using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Beamable.Samples.Core.Audio;
 using UnityEngine;
 
 namespace Beamable.Samples.BBB

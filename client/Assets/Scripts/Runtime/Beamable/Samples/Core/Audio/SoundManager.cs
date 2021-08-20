@@ -1,9 +1,9 @@
-﻿using Beamable.Samples.BBB.Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
+using Beamable.Samples.Core.Components;
 using UnityEngine;
 
-namespace Beamable.Samples.BBB.Audio
+namespace Beamable.Samples.Core.Audio
 {
 	/// <summary>
 	/// Maintain a list of AudioSources and play the next 
