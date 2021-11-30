@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.beamable": {
-      "version": "0.15.0",
+      "version": "0.17.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -12,11 +12,11 @@
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
     },
     "com.beamable.server": {
-      "version": "0.15.0",
+      "version": "0.17.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.beamable": "0.15.0"
+        "com.beamable": "0.17.4"
       },
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
     },
@@ -63,7 +63,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.11",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -86,7 +86,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.30",
       "depth": 0,
       "source": "registry",
       "dependencies": {
