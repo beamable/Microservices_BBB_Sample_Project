@@ -19,6 +19,11 @@ namespace Beamable.Server.Clients
     public sealed class BBBGameMicroserviceClient : Beamable.Server.MicroserviceClient
     {
         
+        public BBBGameMicroserviceClient(Beamable.BeamContext context = null) : 
+                base(context)
+        {
+        }
+        
         /// <summary>
         /// Call the StartTheBattle method on the BBBGameMicroservice microservice
         /// <see cref="Beamable.Server.BBBGameMicroservice.BBBGameMicroservice.StartTheBattle"/>
@@ -43,6 +48,41 @@ namespace Beamable.Server.Clients
             string[] serializedFields = new string[] {
                     serialized_weaponContentRefs};
             return this.Request<Beamable.Server.BBBGameMicroservice.AttackTheBossResults>("BBBGameMicroservice", "AttackTheBoss", serializedFields);
+        }
+    }
+    
+    internal sealed class MicroserviceParametersBBBGameMicroserviceClient
+    {
+        
+        [System.SerializableAttribute()]
+        internal sealed class ParameterBeamable_Server_BBBGameMicroservice_Content_BossContentRef : Beamable.Server.MicroserviceClientDataWrapper<Beamable.Server.BBBGameMicroservice.Content.BossContentRef>
+        {
+        }
+        
+        [System.SerializableAttribute()]
+        internal sealed class ParameterSystem_Int32 : Beamable.Server.MicroserviceClientDataWrapper<int>
+        {
+        }
+        
+        [System.SerializableAttribute()]
+        internal sealed class ParameterSystem_Collections_Generic_List_Beamable_Server_BBBGameMicroservice_Content_WeaponContentRef : Beamable.Server.MicroserviceClientDataWrapper<System.Collections.Generic.List<Beamable.Server.BBBGameMicroservice.Content.WeaponContentRef>>
+        {
+        }
+    }
+    
+    [BeamContextSystemAttribute()]
+    internal static class ExtensionsForBBBGameMicroserviceClient
+    {
+        
+        [Beamable.Common.Dependencies.RegisterBeamableDependenciesAttribute()]
+        public static void RegisterService(Beamable.Common.Dependencies.IDependencyBuilder builder)
+        {
+            builder.AddScoped<BBBGameMicroserviceClient>();
+        }
+        
+        public static BBBGameMicroserviceClient BBBGameMicroservice(this Beamable.Server.MicroserviceClients clients)
+        {
+            return clients.GetClient<BBBGameMicroserviceClient>();
         }
     }
 }
