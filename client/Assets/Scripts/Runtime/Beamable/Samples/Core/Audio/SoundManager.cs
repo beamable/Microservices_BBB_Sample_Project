@@ -34,9 +34,9 @@ namespace Beamable.Samples.Core.Audio
 			stringBuilder.AppendLine("DebugLogCodeSnippet...");
 
 			foreach (AudioClip audioClip in _audioClips)
-         {
+            {
 				stringBuilder.AppendLine($"public const string {audioClip.name} = \"{audioClip.name}\";");
-         }
+            }
 
 			Debug.Log(stringBuilder.ToString());
 		}
