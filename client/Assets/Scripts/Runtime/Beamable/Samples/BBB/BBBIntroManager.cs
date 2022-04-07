@@ -18,6 +18,7 @@ namespace Beamable.Samples.BBB
       private bool _isConnected = false;
       private bool _isBeamableSDKInstalled = false;
       private string _isBeamableSDKInstalledErrorMessage = "";
+      private BeamContext _beamContext;
 
       //  Unity Methods   ------------------------------
       protected void Start()
@@ -26,12 +27,10 @@ namespace Beamable.Samples.BBB
          SetupBeamable();
       }
 
-      protected void OnDestroy()
+      protected async void OnDestroy()
       {
-         Beamable.API.Instance.Then(beamableAPI =>
-         {
-            beamableAPI.ConnectivityService.OnConnectivityChanged -= ConnectivityService_OnConnectivityChanged;
-         });
+         _beamContext.Api.ConnectivityService.OnConnectivityChanged -= ConnectivityService_OnConnectivityChanged;
+         await _beamContext.ClearPlayerAndStop();
       }
 
       //  Other Methods --------------------------------
@@ -39,22 +38,20 @@ namespace Beamable.Samples.BBB
       /// <summary>
       /// Login with Beamable and fetch user/session information
       /// </summary>
-      private void SetupBeamable()
+      private async void SetupBeamable()
       {
          try
          {
             // Attempt Connection to Beamable
-            Beamable.API.Instance.Then(beamableAPI =>
-            {
-               // Fetch user information
-               _dbid = beamableAPI.User.id;
-               _isBeamableSDKInstalled = true;
+            _beamContext = BeamContext.Default;
+            await _beamContext.OnReady;
+            // Fetch user information
+            _dbid = _beamContext.PlayerId;
+            _isBeamableSDKInstalled = true;
 
-               // Handle any changes to the internet connectivity
-               beamableAPI.ConnectivityService.OnConnectivityChanged += ConnectivityService_OnConnectivityChanged;
-               ConnectivityService_OnConnectivityChanged(beamableAPI.ConnectivityService.HasConnectivity);
-
-            });
+            // Handle any changes to the internet connectivity
+            _beamContext.Api.ConnectivityService.OnConnectivityChanged += ConnectivityService_OnConnectivityChanged;
+            ConnectivityService_OnConnectivityChanged(_beamContext.Api.ConnectivityService.HasConnectivity);
          }
          catch (Exception e)
          {
