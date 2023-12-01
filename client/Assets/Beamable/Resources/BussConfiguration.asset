@@ -12,4 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6247d5345dc64f2a82f4f42e7d63e89, type: 3}
   m_Name: BussConfiguration
   m_EditorClassIdentifier: 
-  globalStyleSheet: {fileID: 0}
