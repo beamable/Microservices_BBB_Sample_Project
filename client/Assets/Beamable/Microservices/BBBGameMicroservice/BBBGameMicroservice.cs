@@ -53,17 +53,10 @@ namespace Beamable.Server.BBBGameMicroservice
          int damageAmount = 0;
          double hitRandom = random.NextDouble();
 
-         //Console.WriteLine($"weaponData.hitChance={weapon.HitChance}.");
-         //Console.WriteLine($"hitRandom={hitRandom}.");
-
          if (hitRandom <= weapon.HitChance)
          {
             damageAmount = random.Next(weapon.MinDamage, weapon.MaxDamage);
-            //Console.WriteLine($"weapon.MinDamage={weaponData.MinDamage}.");
-            //Console.WriteLine($"weapon.MaxDamage={weaponData.MaxDamage}.");
          }
-
-         //Console.WriteLine($"damageAmount={damageAmount}.");
 
          // Return the damage
          return await DamageTheBoss(damageAmount);

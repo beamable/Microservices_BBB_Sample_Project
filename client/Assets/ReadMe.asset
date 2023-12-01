@@ -9,6 +9,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 8d102358e0d973940aa305879e512472, type: 3}
   m_Name: ReadMe
   m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: d9139a2683873cb4cb5e86cb4fcf0670, type: 3}
+  title: Beamable Boss Battles
+  sections:
+  - heading: 'What is "Beamable Boss Battles"? '
+    text: 'The Hero has reached the dungeon. Battle the Boss to win. This sample
+      project allows game makers to understand and apply the benefits of Microservices
+      in game development. '
+    linkText: Microservices - Sample Project
+    url: https://docs.beamable.com/docs/microservices-sample-project
+  - heading: 'What is Beamable? '
+    text: 'Beamable is the low-code option for rapidly adding social, commerce, and
+      content management features to your live game. Learn how to do that with Beamable''s
+      online product documentation. '
+    linkText: Beamable Docs
+    url: docs.beamable.com
+  - heading: 'What is Beamable''s "Microservices" Feature? '
+    text: 'The purpose of this feature is to allow game makers to create and deploy
+      server-authoritative C# functionality within their games. '
+    linkText: Microservices
+    url: https://docs.beamable.com/docs/microservices
+  - heading: 'Got feedback? '
+    text: 'Let us know what you think or ask any questions you might have. '
+    linkText: Contact Us
+    url: https://docs.beamable.com/discuss
+  loadedLayout: 0
