@@ -32,7 +32,7 @@ namespace Beamable.Samples.Core
 			}
 			else
 			{
-				//Debug.LogError("SelectReadme() No results found for Readme.");
+				Debug.LogError("SelectReadme() No results found for Readme.");
 			}
 
 			return null;
@@ -42,15 +42,15 @@ namespace Beamable.Samples.Core
 		private static Readme SelectReadme(string pathToReadme)
 		{
 			if (string.IsNullOrEmpty (pathToReadme))
-         {
+			{
 				return null;
-         }
+			}
 			var readmeObject = AssetDatabase.LoadMainAssetAtPath(pathToReadme);
 
 			if (readmeObject == null)
-         {
+			{
 				return null;
-         }
+			}
 
 			var editorAsm = typeof(UnityEditor.Editor).Assembly;
 			var inspWndType = editorAsm.GetType("UnityEditor.InspectorWindow");
